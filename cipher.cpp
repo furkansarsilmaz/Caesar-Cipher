@@ -23,6 +23,9 @@ int main(){
     std::string text ;
     int shift ;
 
+    std::cout << "#########################" << std::endl ;
+    std::cout << "  Welcome to Crypter !!! " << std::endl ;
+
     std::cout << "Enter the text : " ;
     std::cin >> text ;
 
@@ -30,7 +33,8 @@ int main(){
     std::cin >> shift ;
     
     std::string result = crypter(text,shift);
-    std::cout << "crypted as : " << result ;
+    std::cout << "crypted as : " << result << std::endl ;
 
+    std::cout << "#########################" ;
     return 0 ;
 }
